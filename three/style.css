@@ -1,0 +1,68 @@
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+.header {
+    background-color: #f2f2f2;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    padding: 5px 0;
+    background-color: #333;
+}
+
+.navbar a {
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 20px;
+    padding: 20px;
+}
+
+.article {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.article h2 {
+    margin-top: 0;
+}
+
+.article p {
+    font-size: 0.9em;
+    line-height: 1.6;
+}
+
+.canvas-container {
+    position: relative; /* For positioning your canvas correctly */
+    width: 500px; /* Canvas width to fill the container */
+    height: 500px; /* Adjust height as needed */
+}
+
+.canvas-container canvas {
+    width: 100%;
+    height: 100%;
+}
